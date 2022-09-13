@@ -1,8 +1,8 @@
 schemaVersion: 2.1.0
 metadata:
     name: theiadevfile
+
 components:
-  - type: chePlugin
-    id: redhat/java/latest
-  - type: cheEditor
-    registryUrl: https://hub.docker.com/r/archanavaliya/haes
+- name: haes
+  container:
+    image: https://hub.docker.com/r/archanavaliya/haes
