@@ -1,11 +1,6 @@
 schemaVersion: 2.1.0
 metadata:
     name: theiadevfile
-projects:
-  - name: petclinic
-    source:
-      type: git
-      location: 'https://github.com/spring-projects/spring-petclinic.git'
 components:
   - type: chePlugin
     id: redhat/java/latest
