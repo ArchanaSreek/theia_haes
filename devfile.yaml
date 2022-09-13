@@ -1,8 +1,13 @@
 schemaVersion: 2.1.0
 metadata:
-    name: mydevfile
+    name: theiadevfile
+projects:
+  - name: petclinic
+    source:
+      type: git
+      location: 'https://github.com/spring-projects/spring-petclinic.git'
 components:
-  - alias: theia-editor
-    type: cheEditor
+  - type: chePlugin
+    id: redhat/java/latest
+  - type: cheEditor
     registryUrl: https://hub.docker.com/r/archanavaliya/haes
-    id: eclipse/che-theia/next
